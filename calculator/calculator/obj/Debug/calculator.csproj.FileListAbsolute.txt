@@ -1,0 +1,11 @@
+C:\Users\alirz\source\repos\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\alirz\source\repos\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\alirz\source\repos\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\alirz\source\repos\calculator\calculator\obj\Debug\calculator.pdb
