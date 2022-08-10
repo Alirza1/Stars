@@ -1,0 +1,11 @@
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\bin\Debug\PetrolStation.exe.config
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\bin\Debug\PetrolStation.exe
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\bin\Debug\PetrolStation.pdb
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.csproj.AssemblyReference.cache
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.csproj.SuggestedBindingRedirects.cache
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.Form1.resources
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.Properties.Resources.resources
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.csproj.GenerateResource.cache
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.csproj.CoreCompileInputs.cache
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.exe
+C:\Users\alirz\source\repos\PetrolStation\PetrolStation\obj\Debug\PetrolStation.pdb
