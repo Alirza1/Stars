@@ -1,0 +1,16 @@
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\bin\Debug\WrapPanel.exe.config
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\bin\Debug\WrapPanel.exe
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\bin\Debug\WrapPanel.pdb
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.csproj.AssemblyReference.cache
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.csproj.SuggestedBindingRedirects.cache
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\MainWindow.g.cs
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\App.g.cs
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel_MarkupCompile.cache
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel_MarkupCompile.lref
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\MainWindow.baml
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.g.resources
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.Properties.Resources.resources
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.csproj.GenerateResource.cache
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.csproj.CoreCompileInputs.cache
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.exe
+C:\Users\alirz\source\repos\WrapPanel\WrapPanel\obj\Debug\WrapPanel.pdb

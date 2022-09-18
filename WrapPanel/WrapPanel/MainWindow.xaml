@@ -1,0 +1,169 @@
+﻿<Window x:Class="WrapPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WrapPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            
+            <Grid Grid.Column="0" Background="DeepSkyBlue" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <WrapPanel HorizontalAlignment="Center">
+                        <Label FontSize="25" HorizontalAlignment="Center">Search</Label>
+                    </WrapPanel>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <WrapPanel>
+                            <Ellipse Height="65" Width="65" HorizontalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="images\drake.jpg"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <WrapPanel>
+                            <Label FontSize="20" FontWeight="Bold">Drake</Label>
+                        </WrapPanel>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <WrapPanel>
+                            <Ellipse Height="65" Width="65" HorizontalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="images\pic2.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <WrapPanel>
+                            <Label FontSize="20" FontWeight="Bold">Mia Khalifa</Label>
+                        </WrapPanel>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <WrapPanel>
+                            <Ellipse Height="65" Width="65" HorizontalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="images\pic1.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <WrapPanel>
+                            <Label FontSize="20" FontWeight="Bold">Nurlan</Label>
+                        </WrapPanel>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <WrapPanel>
+                            <Ellipse Height="65" Width="65" HorizontalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="images\offset.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <WrapPanel>
+                            <Label FontSize="20" FontWeight="Bold">Offset</Label>
+                        </WrapPanel>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <WrapPanel>
+                            <Ellipse Height="65" Width="65" HorizontalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="images\pic3.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <WrapPanel>
+                            <Label FontSize="20" FontWeight="Bold">Jhonny</Label>
+                        </WrapPanel>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <WrapPanel>
+                            <Ellipse Height="65" Width="65" HorizontalAlignment="Center">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="images\kendricklamar.jpg"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <WrapPanel>
+                            <Label FontSize="20" FontWeight="Bold">Kendrick Lamar</Label>
+                        </WrapPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Column="1" Background="LightSkyBlue" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" Background="Beige">
+                    <WrapPanel HorizontalAlignment="Right">
+                        <Button Height="50" Width="70" HorizontalAlignment="Right">Send</Button>
+                    </WrapPanel>
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>
