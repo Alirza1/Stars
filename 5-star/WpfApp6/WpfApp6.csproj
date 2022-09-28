@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4CC0EEB-BE25-406D-AB26-1C765625BF05}</ProjectGuid>
+    <ProjectGuid>{2138F27A-A332-4A45-B98B-BC9B4C06BE47}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ButtonTask</RootNamespace>
-    <AssemblyName>ButtonTask</AssemblyName>
+    <RootNamespace>WpfApp6</RootNamespace>
+    <AssemblyName>WpfApp6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,6 +93,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="StarAnimationTask %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="NewFolder1\star.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

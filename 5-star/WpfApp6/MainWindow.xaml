@@ -1,0 +1,163 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="5Star Animation" Height="450" Width="1000" Icon="C:\Users\Help\source\repos\WpfApp6\WpfApp6\NewFolder1\star.png" >
+    <Grid>
+        <StackPanel Orientation="Horizontal"  >
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/sa.jpg"/>
+            </StackPanel.Background>
+            <Button Margin="10" Height="146" Width="171" BorderThickness="0" Background="Transparent"
+                RenderTransformOrigin="0.5,0.5">
+                <Path Name="starPath1" Fill="White" StrokeThickness="1" Stroke="Black" 
+                  Stretch="Fill"
+          Data="M 127,37 L 104,105 L 34,105 L 91,150 L 69,218 L 127,176 L 187,218 L 164,150 L 223,105 L 151,105 L 127,37" Height="108" Width="146"/>
+                <Button.RenderTransform>
+                    <RotateTransform x:Name="myTransform1"></RotateTransform>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="myTransform1"
+                                             Storyboard.TargetProperty="(RotateTransform.Angle)"
+                                             From="0.0" To="360" Duration="0:0:1">
+                                </DoubleAnimation>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Path.Fill).(SolidColorBrush.Color)"
+                                                          Storyboard.TargetName="starPath1">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.5"
+                                                 Value="Yellow"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+
+            </Button>
+
+
+            <Button Margin="10" Height="146" Width="171" BorderThickness="0" Background="Transparent"
+                RenderTransformOrigin="0.5,0.5">
+                <Path Name="starPath2" Fill="White" StrokeThickness="1" Stroke="Black" 
+                  Stretch="Fill"
+          Data="M 127,37 L 104,105 L 34,105 L 91,150 L 69,218 L 127,176 L 187,218 L 164,150 L 223,105 L 151,105 L 127,37" Height="108" Width="146"/>
+                <Button.RenderTransform>
+                    <RotateTransform x:Name="myTransform2"></RotateTransform>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="myTransform2"
+                                             Storyboard.TargetProperty="(RotateTransform.Angle)"
+                                             From="0.0" To="360" Duration="0:0:1">
+                                </DoubleAnimation>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Path.Fill).(SolidColorBrush.Color)"
+                                                          Storyboard.TargetName="starPath2">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.5"
+                                                 Value="Yellow"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+
+            </Button>
+
+
+
+            <Button Margin="10" Height="146" Width="171" BorderThickness="0" Background="Transparent"
+                RenderTransformOrigin="0.5,0.5">
+                <Path Name="starPath3" Fill="White" StrokeThickness="1" Stroke="Black" 
+                  Stretch="Fill"
+          Data="M 127,37 L 104,105 L 34,105 L 91,150 L 69,218 L 127,176 L 187,218 L 164,150 L 223,105 L 151,105 L 127,37" Height="108" Width="146"/>
+                <Button.RenderTransform>
+                    <RotateTransform x:Name="myTransform3"></RotateTransform>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="myTransform3"
+                                             Storyboard.TargetProperty="(RotateTransform.Angle)"
+                                             From="0.0" To="360" Duration="0:0:1">
+                                </DoubleAnimation>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Path.Fill).(SolidColorBrush.Color)"
+                                                          Storyboard.TargetName="starPath3">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.5"
+                                                 Value="Yellow"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+
+            </Button>
+
+
+
+            <Button Margin="10" Height="146" Width="171" BorderThickness="0" Background="Transparent"
+                RenderTransformOrigin="0.5,0.5">
+                <Path Name="starPath4" Fill="White" StrokeThickness="1" Stroke="Black" 
+                  Stretch="Fill"
+          Data="M 127,37 L 104,105 L 34,105 L 91,150 L 69,218 L 127,176 L 187,218 L 164,150 L 223,105 L 151,105 L 127,37" Height="108" Width="146"/>
+                <Button.RenderTransform>
+                    <RotateTransform x:Name="myTransform4"></RotateTransform>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="myTransform4"
+                                             Storyboard.TargetProperty="(RotateTransform.Angle)"
+                                             From="0.0" To="360" Duration="0:0:1">
+                                </DoubleAnimation>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Path.Fill).(SolidColorBrush.Color)"
+                                                          Storyboard.TargetName="starPath4">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.5"
+                                                 Value="Yellow"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+
+            </Button>
+
+
+
+
+            <Button Margin="10" Height="146" Width="171" BorderThickness="0" Background="Transparent"
+                RenderTransformOrigin="0.5,0.5">
+                <Path Name="starPath5" Fill="White" StrokeThickness="1" Stroke="Black" 
+                  Stretch="Fill"
+          Data="M 127,37 L 104,105 L 34,105 L 91,150 L 69,218 L 127,176 L 187,218 L 164,150 L 223,105 L 151,105 L 127,37" Height="108" Width="146"/>
+                <Button.RenderTransform>
+                    <RotateTransform x:Name="myTransform5"></RotateTransform>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="myTransform5"
+                                             Storyboard.TargetProperty="(RotateTransform.Angle)"
+                                             From="0.0" To="360" Duration="0:0:1">
+                                </DoubleAnimation>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Path.Fill).(SolidColorBrush.Color)"
+                                                          Storyboard.TargetName="starPath5">
+                                    <LinearColorKeyFrame KeyTime="0:0:0.5"
+                                                 Value="Yellow"/>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

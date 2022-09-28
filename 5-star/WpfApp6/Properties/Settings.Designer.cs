@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ButtonTask.Properties
+namespace WpfApp6.Properties
 {
 
 
